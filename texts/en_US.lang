@@ -1,0 +1,160 @@
+﻿pack.description=You can conveniently enjoy your Minecraft life.   Created by Yuka0745
+
+
+accessibility.disableTTS=§eText To Speech disabled	#
+accessibility.enableTTS=§eText To Speech enabled	#
+
+permissions.chatmute=Oops! You are not authorized to speak on this server.	#
+
+book.toggleLightMode=Light Mode
+
+map.position=Position §bX:%s§r, §aY:%s§r, §cZ:%s	#
+
+disconnectionScreen.title=Connection error!
+disconnectionScreen.sessionNotFound=No world session was found.	#
+disconnectionScreen.notAllowed=Access to this server has been denied.	#
+xbox.disconectionscreen.accessDenied=Access denied. The host may have blocked or banned you.
+
+createWorldScreen.gameMode.spectator=Spectator
+createWorldScreen.gameMode.hardcore=hardcore
+
+craftingScreen.tab.none=None
+
+chat.newline=Newline
+chat.textbox.place=Message
+cmd.textbox.place=Enter your command input here
+
+qs.video=Quick Video Settings
+qs.accessibility=Quick Accessibility Settings
+qs.chat=Chat Settings
+qs.chatonly=This feature only supports chat settings
+chat.settingsPlus=Quick Settings
+
+options.screenShake=Enable "/camerashake"
+options.quick=Quick
+options.quickTitle=Quick Settings
+options.touch.canSwitch=Touch is also available on Nintendo Switch. However, this setting is usually hidden, If you participate in the world where you applied "Gote-Supporter Lite", this item will be displayed and you will be able to change settings.
+
+item.spawn_egg.name=Empty Spawn Egg
+
+tile.reserved6.name=Reserved6
+tile.movingBlock.name=Moving Block
+tile.info_update.name=Info Update
+tile.info_update2.name=Info Update2
+tile.glowingobsidian.name=Glowing Obsidian
+tile.end_gateway.name=End Gateway
+tile.frosted_ice.name=Frosted Ice
+tile.frame.name=Frame
+tile.dark_oak_door=Dark Oak Door
+tile.acacia_door=Acacia Door
+tile.jungle_door=Jungle Door
+tile.spruce_door=Spruce Door
+tile.daylight_detector_inverted.name=Daylight Sensor Inverted
+tile.wall_banner.name=Wall Banner
+tile.double_wooden_slab_oak.name=Double Wooden Slab Oak
+tile.unpowered_comparator.name=Unpowered comparator
+tile.powered_comparator.name=Powered comparator
+tile.skull.name=Skull
+tile.carrots.name=Carrots
+tile.flower_pot.name=Flower Pot
+tile.lit_redstone_lamp.name=Lit Redstone Lamp
+tile.end_portal.name=End Portal
+tile.unpowered_repeater.name=Unpowered Repeater
+tile.powered_repeater.name=Powered Repeater
+tile.lit_redstone_ore.name=Lit Redstone Ore
+tile.lava.name=Lava
+tile.wooden_door.name=Wooden Door
+tile.pistonArmCollision.name=Piston Arm Collision
+tile.stickyPistonArmCollision.name=Sticky Piston Arm Collision
+tile.bubble_column.name=Bubble Column
+
+## フィードバックサイト
+
+ir2.gts.gotofeedback=Open Feedback site? Your browser will launch.
+ir2.pocket.waring=Some Gote-Supporter Lite features are not supported by Pocket UI.
+ir2.worldFolderPath.worldFolder=World Folder Location
+ir2.worldFolderPath.cantget=Could not be obtained.
+ir2.previewWarning.title=Warning
+ir2.previewWarning.honbun1=You have enabled Gote-Supporter Lite in the beta version of Minecraft.
+ir2.previewWarning.honbun2=Gote-Supporter Lite does not fully support the beta version of Minecraft.
+ir2.previewWarning.honbun3=This may cause problems such as crashes and UI layout collapses.
+ir2.previewWarning.honbun4=Please understand this in advance.
+
+ir2.jsonUIWarning.title=Important JSON UI Warning
+ir2.jsonUIWarning.honbun1=Resource packs that modify the screen UI, including Gote-Supporter Lite, are modified using "JSON UI".
+ir2.jsonUIWarning.honbun2=Minecraft is progressively rolling out a new UI engine, Ore UI, which is the successor to JSON UI.
+ir2.jsonUIWarning.honbun3=§l§cGote-Supporter Lite features may not be available in the future due to future updates.
+ir2.jsonUIWarning.honbun4=*The Ore UI is already implemented in the Achievements screen, world creation screen, etc. and cannot currently be changed from the resource pack.
+
+## Gote-Supporter Lite Info 画面のテキスト
+
+packinfo.back=<- Back
+##>
+
+## もくじ
+
+packinfo.mokuji.title=Table of Contents
+packinfo.mokuji.text1=Thank you for using this pack!
+packinfo.mokuji.text2=On this screen you can see information about this pack.
+
+## このパックについて
+
+packinfo.about.title=About this pack
+packinfo.about.text1=This resource pack is a UI add-on that adds a variety of useful features to Minecraft while keeping major UI changes to a minimum!
+packinfo.about.text2=It does not use any behavior packs and can be used in multiplayer, servers, etc.!
+packinfo.about.text3=(Gote-Supporter Lite cannot be used if the participating server has denied global resources.)
+packinfo.about.text4=This pack is available on MCPEDL!
+packinfo.about.text5=§ahttps://mcpedl.com/gote-supporter/
+packinfo.about.text6=Join Yuka0745's add-on Discord server and report bugs in Gote-Supporter Lite!
+packinfo.about.text7=§adiscord.gg/ZcCnXYEFc2
+
+## 特徴
+
+packinfo.features.title=Features
+packinfo.features.text1=The main features of this pack are as follows! :
+packinfo.features.text2=See more features at MCPEDL or on our blog Introducing Gote-Supporter Lite!
+
+packinfo.f1=You don't have to make a clock and compass for survival!
+packinfo.f2=Item names can be newlined in an anvil!
+packinfo.f3=You can press the F1 and F8 keys on the play screen and the Tab key on the chat screen on your phone!
+packinfo.f4=You can create a world template!
+packinfo.f5=Maximum frame rate setting can be changed!
+packinfo.f6=...And more!
+
+## アップデート情報
+
+packinfo.update.title=Changelog
+packinfo.update.text1=On this page, you can see the changelog of Gote-Supporter Lite.
+
+packinfo.v100.u1=First release.
+
+## 注意事項
+packinfo.caution.title=Precautions
+packinfo.caution.text1=This pack is made in Japan.
+packinfo.caution.text2=For translation into English, we use DeepL Translate.
+packinfo.caution.text3=Please understand this in advance.
+packinfo.caution.text4=If you would like to copy any part of this pack and incorporate it into your own pack, please contact Yuka0745.
+packinfo.caution.text5=Do not claim this add-on as your own.
+packinfo.caution.text6=Yuka0745 is not responsible for any damage caused by the use of this pack.
+
+## サウンド鑑賞
+packinfo.music.title=Music Listen
+packinfo.music.text1=In this section you can listen to Minecraft background music!
+packinfo.music.text2=Take a break!
+packinfo.music.text3=Music will remain playing even if this screen is closed.
+
+## 必ずお読みください
+packinfo.readme.title=Read me!
+packinfo.readme.text1=Thank you for downloading Gote-Supporter Lite.
+packinfo.readme.text2=If you use this pack, you must strictly adhere to the following
+packinfo.readme.text4=《You can do the following》
+packinfo.readme.text5=To use this pack as a reference for creating your own packs.
+packinfo.readme.text6=To modify this pack for personal use.
+packinfo.readme.text7=Copying parts of this pack into other packs.
+packinfo.readme.text8=Distributing packs that contain material copied from this pack.(It must be clearly stated that it was copied from Gote-Supporter Lite.)
+packinfo.readme.text9=Modifying this pack to maintain compatibility with other packs.
+packinfo.readme.text10=Apply this pack to a world or server resource pack.
+packinfo.readme.text11=Producing a video introducing this pack.
+packinfo.readme.text12=《You CAN'T do the following》
+packinfo.readme.text14=Secondary distribution of this pack
+packinfo.readme.text15=Claiming this pack as your own work

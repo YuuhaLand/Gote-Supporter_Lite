@@ -1,0 +1,60 @@
+/*********************************************
+          Gote-Supporter by Yuka0745
+*********************************************/
+{
+  "namespace": "crafting",
+
+  "status_bar": {
+    "type": "panel",
+    "offset": [ 0, 30 ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [ 180, 20 ],
+    "controls": [
+      {
+        "heart_rend@hud.heart_renderer": {
+          "offset": [ -1, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "armor_rend@hud.armor_renderer": {
+          "offset": [ -1, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "hunger_rend@hud.hunger_renderer": {
+          "offset": [ 180, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "bubbles_rend_0@hud.bubbles_renderer": {
+          "offset": [ 180, -50 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      }
+    ]
+  },
+
+  "recipe_inventory_screen_content": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [
+          {
+            "status_bar@crafting.status_bar": {
+              "bindings": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

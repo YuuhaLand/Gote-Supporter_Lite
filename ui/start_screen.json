@@ -1,0 +1,167 @@
+﻿/*********************************************
+          Gote-Supporter by Yuka0745
+*********************************************/
+{
+  "namespace": "start",
+
+  "info_icon": {
+    "type": "image",
+    "texture": "textures/ui/info_icon",
+    "layer": 3,
+    "size": [ 16, 16 ]
+  },
+  
+  "copyright2": {
+    "type": "panel",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [ "100%-2px", 10 ],
+    "controls": [
+      {
+        "gote-supporter_version": {
+          "type": "label",
+          "color": "$main_header_text_color",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ "default", 10 ],
+          "offset": [ 0, -10 ],
+          "text": "Gote-Supporter: Yuka0745(@Gotemba912)"
+        }
+      },
+      {
+        "minecraft_version": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ "100%c", 10 ],
+          "controls": [
+            {
+              "minecraft": {
+                "type": "label",
+                "color": "$main_header_text_color",
+                "text": "Minecraft: "
+              }
+            },
+            {
+              "mc_ver": {
+                "type": "label",
+                "color": "$main_header_text_color",
+                "text": "menu.copyright"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ver_texts": {
+    "type": "panel",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [ "100%-2px", 10 ],
+    "controls": [
+      {
+        "gote-supporter_version": {
+          "type": "label",
+          "color": "$main_header_text_color",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ "default", 10 ],
+          "offset": [ 0, -10 ],
+          "text": "('Gote-Supporter Lite ' + $gote_ver)"
+        }
+      },
+      {
+        "minecraft_version": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "size": [ "100%c", 10 ],
+          "controls": [
+            {
+              "minecraft": {
+                "type": "label",
+                "color": "$main_header_text_color",
+                "text": "Minecraft "
+              }
+            },
+            {
+              "mc_ver": {
+                "type": "label",
+                "color": "$main_header_text_color",
+                "text": "#version",
+                "bindings": [
+                  {
+                    "binding_name": "#version"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "text_panel": {
+    "type": "panel",
+    "size": [ "100%-2px", 10 ],
+    "offset": [ 0, -1 ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "controls": [
+      {
+        "copyright2@start.copyright2": {}
+      },
+      {
+        "development_version@start.development_version": {
+          "ignored": "$is_publish"
+        }
+      },
+      {
+        "ver_texts@start.ver_texts": {}
+      }
+    ]
+  },
+
+  "lower_online_buttons_panel/stacked_column": {
+    "modifications": [
+      {
+        "control_name": "achievements_btn",
+        "operation": "insert_after",
+        "value": [
+          {
+            "pack_info_padding": {
+              "type": "panel",
+              "size": [ 3, "100%" ]
+            }
+          },
+          {
+            "pack_info_btn@start.column_frame": {
+              "size": [ 28, 32 ],
+              "controls": [
+                {
+                  "pack_info_icon_button": {
+                    "type": "panel",
+                    "$button_tts_header": "manifestvalidation.title",
+                    "controls": [
+                      {
+                        "pack_info_button@common_buttons.light_content_button": {
+                          "size": [ 24, 24 ],
+                          "$button_content": "start.info_icon",
+                          "$pressed_button_name": "button.menu_buy_game"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

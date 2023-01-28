@@ -1,0 +1,102 @@
+﻿accessibility.disableTTS=§eText To Speech disabled	#
+accessibility.enableTTS=§eText To Speech enabled	#
+
+permissions.chatmute=Oops! You are not authorized to speak on this server.	#
+
+map.position=Position §bX:%s§r, §aY:%s§r, §cZ:%s	#
+
+disconnectionScreen.title=Connection error!
+disconnectionScreen.sessionNotFound=No world session was found.	#
+disconnectionScreen.notAllowed=Access to this server has been denied.	#
+xbox.disconectionscreen.accessDenied=Access denied. The host may have blocked or banned you.
+
+craftingScreen.tab.none=None
+
+chat.newline=Newline
+chat.textbox.place=Enter your chat or command input here
+cmd.textbox.place=Enter your command input here
+
+qs.video=Quick Video Settings
+qs.accessibility=Quick Accessibility Settings
+qs.chat=Chat Settings
+qs.chatonly=This feature only supports chat settings
+chat.settingsPlus=Quick Settings
+
+options.screenShake=Enabled "/camerashake"
+options.quick=Quick
+options.quickTitle=Quick Settings
+options.touch.canSwitch=Touch is also available on Nintendo Switch. However, this setting is usually hidden, If you participate in the world where you applied "Gote-Supporter", this item will be displayed and you will be able to change settings.
+
+item.spawn_egg.name=Empty Spawn Egg
+
+tile.reserved6.name=Reserved6
+tile.movingBlock.name=Moving Block
+tile.info_update.name=Info Update
+tile.info_update2.name=Info Update2
+tile.glowingobsidian.name=Glowing Obsidian
+tile.end_gateway.name=End Gateway
+tile.frosted_ice.name=Frosted Ice
+tile.frame.name=Frame
+tile.dark_oak_door=Dark Oak Door
+tile.acacia_door=Acacia Door
+tile.jungle_door=Jungle Door
+tile.spruce_door=Spruce Door
+tile.daylight_detector_inverted.name=Daylight Sensor Inverted
+tile.wall_banner.name=Wall Banner
+tile.double_wooden_slab_oak.name=Double Wooden Slab Oak
+tile.unpowered_comparator.name=Unpowered comparator
+tile.powered_comparator.name=Powered comparator
+tile.skull.name=Skull
+tile.carrots.name=Carrots
+tile.flower_pot.name=Flower Pot
+tile.lit_redstone_lamp.name=Lit Redstone Lamp
+tile.end_portal.name=End Portal
+tile.unpowered_repeater.name=Unpowered Repeater
+tile.powered_repeater.name=Powered Repeater
+tile.lit_redstone_ore.name=Lit Redstone Ore
+tile.lava.name=Lava
+tile.wooden_door.name=Wooden Door
+tile.pistonArmCollision.name=Piston Arm Collision
+tile.stickyPistonArmCollision.name=Sticky Piston Arm Collision
+tile.bubble_column.name=Bubble Column
+
+packinfo.overflow=§b<*Overflow*>
+
+packinfo.o1=Thank you for applying this add-on!
+
+packinfo.o2=This add-on is designed to enjoy Minecraft Life conveniently.
+
+packinfo.features=§a<*Features*>
+
+packinfo.f1=- Start screen with "Exit of game" and "Achievement" button
+packinfo.f2=- Tab buttons that can be used on mobile devices without a keyboard or controller.
+packinfo.f3=- F1 button that can be used on mobile devices without a keyboard or controller.
+packinfo.f4=- The HUD is equipped with a compass and a clock. No clock and compass required for survival mode!
+packinfo.f5=- "Quick setting" that allows you to change settings quickly.
+packinfo.f6=- You can newline item name on anvil.
+packinfo.f7=- You can newline command on command block.
+packinfo.f8=- Anti Vignette
+packinfo.f9=- "How to Play" and "Achievement" can be displayed from the pause screen.
+packinfo.f10=- Even if you wear a pumpkin, your visibility will not deteriorate.
+packinfo.f11=- When breaking a block in survival mode, a countdown will be displayed.
+packinfo.f12=- Color-coded coordinate display.
+packinfo.f13=- You can set the maximum frame rate and VSync in the video settings.
+packinfo.f14=- The language can be changed during gameplay.
+packinfo.f15=- Book & Quill UI with scroll bar. (BETA)
+packinfo.f16=- The world name is displayed even when the scoreboard is displayed on the pause screen.
+packinfo.f17=- Hide the "Player Permissions" button from the pause screen when the scoreboard is displayed in adventure mode.
+packinfo.f18=- Enables touch control with Nintendo Switch.
+packinfo.f19=- Remove the Spyglass overlay.
+packinfo.f20=- Display the icon in the "Block Type" combo box on the Command Block Screen.
+
+packinfo.updates=§e<*Updates*>
+
+packinfo.u1=- Dummy
+
+packinfo.cautions=§c<*Cautions*>
+
+packinfo.c1=The act of making this add-on look like you created it is prohibited.
+packinfo.c2=If you encounter any problems, please contact us at https://discord.gg/jeSg47pxkr.
+
+
+packinfo.creater=Addon created by Yuka0745 (@Gotemba912)
