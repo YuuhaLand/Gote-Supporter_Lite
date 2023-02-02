@@ -30,7 +30,7 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   true = show (Default)
   false = hidden
   ************************************/
-  "$hud_compass": true,
+  "$hud_compass|default": true,
 
 
   /************************************
@@ -44,7 +44,7 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   true = show
   false = hidden (default)
   ************************************/
-  "$show_recoverycompass": false,
+  "$show_recoverycompass|default": false,
   
 
   /************************************
@@ -56,7 +56,7 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   "top" = displayed alongside chat buttons, etc. above (default)
   "right" = displayed in the lower right corner
   ************************************/
-  "$f1_f8_location": "top",
+  "$f1_f8_location|default": "top",
   
 
   /************************************
@@ -68,7 +68,7 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   true = show
   false = hidden (default)
   ************************************/
-  "$show_hotbar_navigator": false,
+  "$show_hotbar_navigator|default": false,
 
   /************************************
   チャット画面のTabキーの配置
@@ -79,7 +79,7 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   "vertical" = Place them side by side in the lower right corner
   "horizontal" = Placed alongside Chat Setting buttons, etc. (Default)
   ************************************/
-  "$chat_tab_button_type": "horizontal",
+  "$chat_tab_button_type|default": "horizontal",
 
 
 
@@ -95,8 +95,8 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   
   //これらの設定は変更しないようお願いします!!
   //Please do not change these settings!
-  "$gote_ver": "v1.0.0",
-  "$gote_ver2": "1.0.0",
+  "$gote_ver": "v1.0.1",
+  "$gote_ver2": "1.0.1",
   "$is_gs_lite": true,
   "$gote_supporter_enabled": true,
   "$is_yukandows_server": false, 
