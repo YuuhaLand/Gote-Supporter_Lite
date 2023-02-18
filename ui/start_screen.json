@@ -1,7 +1,4 @@
-﻿/*********************************************
-          Gote-Supporter by Yuka0745
-*********************************************/
-{
+﻿{
   "namespace": "start",
 
   "info_icon": {
@@ -25,7 +22,7 @@
           "anchor_to": "top_left",
           "size": [ "default", 10 ],
           "offset": [ 0, -10 ],
-          "text": "Gote-Supporter: Yuka0745(@Gotemba912)"
+          "text": "Gote-Supporter: ©Yuka0745"
         }
       },
       {

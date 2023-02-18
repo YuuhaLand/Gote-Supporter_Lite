@@ -1,13 +1,13 @@
-/*********************************************
-          Gote-Supporter by Yuka0745
-*********************************************/
 {
   "namespace": "pause",
 
-  "quit_dialog_dlga@ir2.dlga": {
+  "quit_dialog_swtich_toggle@gtb.swtich_toggle": {
     "$toggle_name": "quit_dialog"
   },
-  "quit_dialog_dlga_close@ir2.close_dlga_esc": {
+  "quit_dialog_dlga@gtb.swtich_toggle": {
+    "$toggle_name": "quit_dialog"
+  },
+  "quit_dialog_swtich_toggle_close@gtb.close_swtich_toggle_esc": {
     "$toggle_name": "quit_dialog"
   },
 
@@ -319,7 +319,7 @@
   },
 
 
-  "quit_dialoglabel@ir2.dlga_label": {
+  "quit_dialoglabel@gtb.swtich_toggle_label": {
     "text": "deathScreen.quit.confirmToMainMenuWarning"
   },
 
@@ -328,6 +328,8 @@
     "$button_text": "gui.ok",
     "anchor_to": "top_left",
     "anchor_from": "top_left",
+    
+    "$yes_sound": true,
 
     "$focus_id": "quit_ok",
     "$focus_override_down": "quit_cancel",
@@ -337,13 +339,15 @@
   },
 
 
-  "quit_dialog_cancel@pause.quit_dialog_dlga": {
+  "quit_dialog_cancel@pause.quit_dialog_swtich_toggle": {
     "$checked_control": "common_toggles.toggle_unchecked",
     "$checked_hover_control": "common_toggles.toggle_unchecked_hover",
 
     "$button_text": "gui.cancel",
     "$toggle_default_state": true,
     "$toggle_group_forced_index": 0,
+    
+    "$return_sound": true,
 
     "$focus_id": "quit_cancel",
     "$focus_override_down": "quit_ok",
@@ -352,7 +356,7 @@
     "$focus_override_right": "FOCUS_OVERRIDE_STOP"
   },
 
-  "dialog1@ir2.dummy_dialog_two": {
+  "dialog1@gtb.dummy_dialog_two": {
     "layer": 503,
     "size": [ 214, 175 ],
     "$text_name": "options.goToFeedbackWebsite",
@@ -369,7 +373,7 @@
     ]
   },
 
-  "dialog2@ir2.dummy_dialog_two": {
+  "dialog2@gtb.dummy_dialog_two": {
     "layer": 503,
     "size": [ 214, 175 ],
     "$text_name": "deathScreen.quit.confirm",
@@ -470,7 +474,7 @@
         }
       },
       {
-        "quit_button@pause.quit_dialog_dlga": {
+        "quit_button@pause.quit_dialog_swtich_toggle": {
           "size": [ "100%", 28 ],
           "$toggle_view_binding_name": "quit_dialog",
           "$button_text": "pauseScreen.quit",
@@ -502,7 +506,7 @@
                   }
                 },
                 {
-                  "quit_dialog_dlga_close@pause.quit_dialog_dlga_close": {
+                  "quit_dialog_swtich_toggle_close@pause.quit_dialog_swtich_toggle_close": {
                     "layer": 502,
                     "size": [ "100%", "100%" ],
                     "$toggle_default_state": true,

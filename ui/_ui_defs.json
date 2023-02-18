@@ -1,6 +1,6 @@
 {
   "ui_defs": [
-    "ui/ir2_assets.json",
+    "ui/_gote_assets.json",
     "ui/_change_logs.json"
   ]
 }

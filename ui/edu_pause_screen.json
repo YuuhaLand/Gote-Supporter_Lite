@@ -1,0 +1,29 @@
+{
+  "namespace": "edu_pause",
+  
+  "edu_game_menu_content": {
+    "modifications": [
+      {
+        "control_name": "divider2",
+        "operation": "insert_after",
+        "value": [
+          {
+            "pack_info_button@pause.buy_button": {
+              "size": [ "100%", 18 ],
+              "focus_change_right": "profile_button",
+              "$button_text": "Gote-Supporter Info",
+              "ignored": false,
+              "bindings": []
+            }
+          },
+          {
+            "divider_gote1@edu_common.horizontal_divider": {
+              "size": [ "100%", 10 ],
+              "$alpha": 0.8
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

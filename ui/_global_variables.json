@@ -1,9 +1,4 @@
 /*********************************************
-          Gote-Supporter by Yuka0745
-*********************************************/
-
-
-/*********************************************
 Gote-Supporter Lite Config
 
 コンフィグファイルへようこそ!
@@ -95,8 +90,8 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   
   //これらの設定は変更しないようお願いします!!
   //Please do not change these settings!
-  "$gote_ver": "v1.0.1",
-  "$gote_ver2": "1.0.1",
+  "$gote_ver": "v1.1.0",
+  "$gote_ver2": "1.1.0",
   "$is_gs_lite": true,
   "$gote_supporter_enabled": true,
   "$is_yukandows_server": false, 

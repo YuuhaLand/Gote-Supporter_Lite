@@ -1,10 +1,7 @@
-/*********************************************
-          Gote-Supporter by Yuka0745
-*********************************************/
 {
   "namespace": "npc_interact",
   "npc_screen_contents": {
-    "modifications": [/
+    "modifications": [
       {
         "array_name": "controls",
         "operation": "insert_front",

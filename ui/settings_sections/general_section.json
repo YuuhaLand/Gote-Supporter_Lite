@@ -1,6 +1,3 @@
-/*********************************************
-          Gote-Supporter by Yuka0745
-*********************************************/
 {
   "gamertag_controls/sign_out": {
     "ignored": "(not $is_pregame or $requires_xbl_signin_to_play)"
@@ -58,7 +55,7 @@
                     "$tooltip_button_binding_type": "global",
                     "$tooltip_button_collection_name": "",
                     "$tooltip_popup_visible_binding": "#ui_profile_radio_pocket",
-                    "$tooltip_text_binding_name": "ir2.pocket.waring",
+                    "$tooltip_text_binding_name": "gtb.pocket.waring",
                     "$tooltip_chevron_anchor": "top_right",
                     "$tooltip_popup_chevron_offset": [ "-30%x", "-10px" ],
                     "$tooltip_popup_chevron_texture": "textures/ui/tooltip_inverted_chevron"
