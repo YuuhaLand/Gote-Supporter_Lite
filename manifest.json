@@ -1,8 +1,8 @@
 {
     "format_version": 1,
     "header": {
-        "description": "大規模な変更は抑えつつ、あなたのマイクライフをより豊かにするユーザー補助パックです。\nCreated by Yuka0745",
-        "name": "Gote-Supporter Lite v1.1.0",
+        "description": "大規模な変更は抑えつつ、あなたのマイクライフをより豊かにするユーザー補助パックです。\nCreated by YukaYama0311",
+        "name": "Gote-Supporter Lite v1.1.1",
         "uuid": "ea53dd14-3825-41f1-b5fe-a880632d64c3",
         "version": [ 1, 0, 1]
     },
@@ -17,7 +17,7 @@
     "metadata": {
       "authors": [
         "YukaYama0311", // メインアカウント
-        "Yuka0745", // ごてっち
+        "YukaYama0311", // ごてっち
         "TST reika912", //佐渡垢
         "Gotemba912" //隠し垢
       ],
@@ -37,7 +37,7 @@
         {
             "type": "label",
             "name": "text_03",
-            "text": "Gote-Supporter by Yuka0745(@Gotemba912)\n\nMade in Japan."
+            "text": "Gote-Supporter by YukaYama0311(@Gotemba912)\n\nMade in Japan."
         }
     ]
 }

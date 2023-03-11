@@ -7,6 +7,9 @@ Gote-Supporter Lite Config
 
 なお、設定を適用するには、入っているワールドをリログするか、マイクラを再起動してください。
 
+項目を誤って設定してしまうと、Gote-Supporterが正常に機能しなくなる可能性があります!
+https://github.com/Gotemba912/Gote-Supporter/wiki/Config(Japanese)
+
 ★★★
 
 Welcome to the Config File!
@@ -14,6 +17,9 @@ This file allows you to customize Gote-Supporter!
 Each setting has a written description, so please read it and set it.
 
 To apply the settings, please relog the world you are in or restart Minecraft.
+
+If an item is incorrectly set, Gote-Supporter may not function properly!
+https://github.com/Gotemba912/Gote-Supporter/wiki/Config(English)
 *********************************************/
 {
   /************************************
@@ -77,6 +83,17 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   "$chat_tab_button_type|default": "horizontal",
 
 
+  /************************************
+  インベントリ画面でItem ID Auxを表示する(JSON UIクリエイター向け)
+  true = 有効化
+  false = 無効化(デフォルト)
+
+  Display Item ID Aux on inventory screen (for JSON UI creators)
+  true = enable
+  false = disable (default)
+  ************************************/
+  "$show_item_id_aux|default": false,
+
 
   // 設定は以上です!
   // That's it for the setup!
@@ -90,8 +107,7 @@ To apply the settings, please relog the world you are in or restart Minecraft.
   
   //これらの設定は変更しないようお願いします!!
   //Please do not change these settings!
-  "$gote_ver": "v1.1.0",
-  "$gote_ver2": "1.1.0",
+  "$gote_ver": "1.1.1",
   "$is_gs_lite": true,
   "$gote_supporter_enabled": true,
   "$is_yukandows_server": false, 
